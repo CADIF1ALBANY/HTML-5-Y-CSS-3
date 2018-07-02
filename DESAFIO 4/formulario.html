@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Registro</title>
+			<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/tabla.css">
+		</head>
+		<h1>Registro</h1>
+		
+		<form name="formulario" method="POST" action="index.html">
+				<table border="0">	
+				<tr>
+			<th colspan="2">Registrese para recibir información sobre nuestros cursos
+			</tr>
+			<tr>
+			<td>Nombre</td>
+			<td><input type="text" name="nombre" required></td>
+		</tr>
+            <tr>
+            <td>Apellido</td>
+			<td><input type="text" name="apellido" required></td>
+		</tr>
+			<td>Telefono</td>
+			<td><input type="text" name="tele"></td>
+			<tr>
+			<td>Correo</td>
+			<td><input type="email" name="correo" required></td>
+			</tr>
+	        <tr>
+			<td>Fecha de Nacimiento</td>
+			<td><input type="date" name="fecha"></td>
+			</tr>
+			<tr>
+			<td>Dirección</td>
+			<td><input type="text" name="direccion"></td>
+		</tr>
+		<tr>
+			<td>Sexo</td></tr>
+			<tr>
+				<td><input type="radio" name="sexo" value="1">Masculino</td></tr>
+			<tr><td><input type="radio" name="sexo" value="2">Femenino</td></tr>
+			<tr>
+				<td colspan="2">Seleccione los cursos sobre los cuales desea que le informen
+			</tr>
+			<tr>
+			<td><label>Cursos</label></td></tr>
+			<tr>
+			<td><input type="checkbox" name="curso1" value="a">HTML </td></tr>
+			<tr><td><input type="checkbox" name="curso2" value="b">JavaScript</td></tr>
+			<tr><td><input type="checkbox" name="curso3" value="c">Lógica de Programación</td></tr>
+			<tr><td><input type="checkbox" name="curso4" value="d">Jquery</td></tr>
+			<tr><td><input type="checkbox" name="curso5" value="e">Excel</td></tr>
+			<tr>
+			<td><input type="submit" value="submit"></td></tr>
+		</table>
+		</form>
+
+			
+

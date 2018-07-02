@@ -1,0 +1,27 @@
+body {
+	background: #E2E2E2;
+	color: #001021;
+	font-family:tahoma ;
+	font-weight: normal;
+	text-align: justify;
+
+}
+h1 {color: #45A0E0;
+text-align: center;
+font-size: 40px;
+}
+
+h2 {color: ;
+	text-align: center;
+
+}
+nav a:hover,footer a{
+	color:red;
+}
+
+footer {
+	text-align: center;
+}
+#visual{
+	text-align: center;
+}
